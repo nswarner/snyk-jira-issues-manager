@@ -63,3 +63,7 @@ snyk container monitor <repository>:<tag> --org=<org>
 ```bash
 snyk iac test --report --org=<org>
 ```
+
+# Free accounts
+
+Free accounts do not get organization API Keys, but they do still get a personal API Key. The Snyk API does not require any encoding to use the authentication method directly (looking at you Jira and SonarQube!) So copy the API Key from your user settings and use it directly as `SNYK_TOKEN` in the code.
