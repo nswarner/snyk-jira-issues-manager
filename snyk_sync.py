@@ -73,6 +73,21 @@ class SnykSync(object):
         for project in data['projects']:
             print(project['name'])
 
+    def snyk_cleanup_issue(self, key, tags):
+        pass
+
+    def snyk_reset_issue(self, key):
+        pass
+
+    def snyk_get_projects_data(self):
+        pass
+
+    def snyk_get_last_analysis_time(self, project_key):
+        pass
+
+    def snyk_analyze_last_analysis_time(self):
+        pass
+
 
 if __name__ == '__main__':
     snyker = SnykSync()
